@@ -1,0 +1,319 @@
+
+        body {
+            /* background-image: url(https://cdn.spacetelescope.org/archives/images/large/potw2222a.jpg)*/
+            background-color: #bda5c088;
+
+        }
+
+        .wrapper {
+            background-color: #446084;
+        }
+
+        sectionmain {
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+            box-sizing: border-box;
+            float: left;
+
+        }
+
+        .products {
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+            box-sizing: border-box;
+
+        }
+
+        h3 {
+            font-size: 18px;
+            color: #555;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border: 1px solid #bebebe;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        sectionf form {
+            display: grid;
+            margin-top: 20px;
+        }
+
+        sectionf form input {
+            line-height: 40px;
+            line-break: loose;
+            margin-bottom: 20px;
+            width: 500px;
+            padding: 4px;
+        }
+
+        sectionf :focus {
+            outline-color: #a981c0;
+        }
+
+        .btn {
+            height: 40px;
+            width: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+
+        header {
+
+            top: 0;
+            position: sticky;
+            position: -webkit-sticky;
+            box-sizing: border-box;
+            z-index: 1000;
+            width: 100%;
+            min-width: 1500px;
+        }
+
+        nav {
+
+            margin-bottom: 30px;
+            background-color: rgb(141, 105, 155);
+            padding: 20px;
+            overflow: hidden;
+            height: 25%;
+            display: flexbox;
+            opacity: 100%;
+            min-width: 800px;
+            box-sizing: border-box;
+
+
+        }
+
+        nav ul li a {
+            text-align: center;
+            text-decoration: none;
+            color: rgb(219, 192, 192);
+            padding: 20px;
+            font-size: 20px;
+            position: relative;
+
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline;
+            position: relative;
+            top: -28px;
+        }
+
+        nav ul {
+            text-align: center;
+        }
+
+        nav ul li a:hover {
+            color: #01c997;
+        }
+
+
+        footer {
+            clear: both;
+            background-color: rgb(141, 105, 155);
+            height: 30%;
+            padding: 3%;
+            box-sizing: border-box;
+            min-width: 1500px;
+            overflow: auto;
+        }
+
+        nav ul subnav li {}
+
+        nav ul subnav a {
+            font-size: small;
+            text-decoration: none;
+            color: rgb(219, 192, 192);
+        }
+
+        nav ul subnav up {
+            position: relative;
+            top: -15px;
+            left: -15px;
+        }
+
+        nav ul subnav down {
+            position: relative;
+            top: 6px;
+            left: -120px;
+        }
+
+        .aimg {
+            width: 30px;
+            margin-left: 50px;
+            position: relative;
+            top: 6px;
+        }
+
+        .logo {
+            position: relative;
+            top: 28px;
+        }
+
+        cata {
+            position: relative;
+            box-sizing: border-box;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        cata ul {
+            box-sizing: border-box;
+            width: fit-content;
+            position: relative;
+        }
+
+        cata2 {}
+
+        .tieude {
+            background-color: #6d4484;
+            color: wheat;
+            text-align: center;
+            width: fit-content;
+            box-sizing: border-box;
+
+
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+
+
+        aside {
+            position: sticky;
+            position: -webkit-sticky;
+            top: 50%;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        aside left {
+            float: left;
+            margin-left: 35px;
+        }
+
+        aside right {
+            float: right;
+            margin-right: 35px;
+        }
+
+        .icons-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            box-sizing: border-box;
+            position: relative;
+            width: 1185px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .icons-container .icons {
+            background: #a981c0;
+            border: .1rem solid rgba(0, 0, 0, .1);
+            padding: 2rem;
+            display: grid;
+            align-items: center;
+        }
+
+        .icons-container .icons img {
+            height: 5rem;
+            margin-right: 2rem;
+        }
+
+        .icons-container .icons h3 {
+            color: #333;
+            padding-bottom: .5rem;
+            font-size: 1.5rem;
+        }
+
+        .icons-container .icons span {
+            color: #555;
+            font-size: 1.3rem;
+        }
+
+        main {
+            box-sizing: border-box;
+            margin-left: 25%;
+
+        }
+
+        .banner {
+            height: 600px;
+            margin-left: 40px;
+            margin-right: 50px;
+            margin-bottom: 60px;
+        }
+        .icons-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            box-sizing: border-box;
+            position: relative;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .icons-container .icons {
+            background: #a981c0;
+            border: .1rem solid rgba(0, 0, 0, .1);
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            flex: 1 1 0;
+        }
+
+        .icons-container .icons img {
+            height: 5rem;
+            margin-right: 2rem;
+        }
+
+        .icons-container .icons h3 {
+            color: #333;
+            padding-bottom: .5rem;
+            font-size: 1.5rem;
+        }
+
+        .icons-container .icons span {
+            color: #555;
+            font-size: 1.3rem;
+        }
+        @media screen and (max-width:1400px) {
+
+            aside left,
+            aside right {
+                display: none;
+            }
+
+            main {
+                display: block;
+
+            }
+
+            .banner {
+                float: none;
+                margin-right: auto;
+                margin-left: auto;
+                display: block;
+
+            }
+
+            sectionmain {
+                float: none;
+                display: block;
+                width: 100%;
+            }
+        }
